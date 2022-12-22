@@ -13,6 +13,7 @@ except:
     from rich.console import Console
     import pyperclip
 # ===================================================================================================
+console = Console()
 
 
 
@@ -144,6 +145,16 @@ def gis(site):
 # ===========================================================================================
 
 
-
+console.print("  #################################################", style="bold blue")
+console.print("  #           @$#          $#&#$                  #", style="bold red")
+console.print("  #           @$*          %&    $                #", style="bold blue")
+console.print("  #           $$%          @%   &                 #", style="bold red")
+console.print("  #           !$%          $$ $                   #", style="bold blue")
+console.print("  #           #$$          $^                     #", style="bold red")
+console.print("  #           $#$          $#                     #", style="bold blue")
+console.print("  #           $%#          &!             IpSiTe  #", style="bold red")
+console.print("  #################################################", style="bold blue")
+print("\n\n\n")
 Target = str(input(" Enter Target: "))
+clear_screen()
 gis(Target)
