@@ -17,7 +17,7 @@ except:
 
 
 if os.name == 'nt':
-    os.system('color F')
+    os.system('color A')
     os.system("title IpSiTe") 
 def clear_screen():
     if os.name == 'nt':
@@ -142,3 +142,8 @@ def gis(site):
         input("\n\n\n\n\t  Enter for close ")
         clear_screen()
 # ===========================================================================================
+
+
+
+Target = str(input(" Enter Target: ")
+gis(site=Target)
