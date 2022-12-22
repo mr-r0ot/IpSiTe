@@ -146,4 +146,4 @@ def gis(site):
 
 
 Target = str(input(" Enter Target: ")
-gis(site=Target)
+gis(Target)
