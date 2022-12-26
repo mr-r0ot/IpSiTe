@@ -6,6 +6,8 @@ A quick and simple tool to get your target ip
 * Installation and execution commands in Shell
 ```
 git clone https://github.com/mr-r0ot/IpSiTe.git
+python -m pip install rich
+python -m pip install pyperclip
 clear || cls && cd IpSiTe && python main.py || python3 main.py
 ```
 # start of work
