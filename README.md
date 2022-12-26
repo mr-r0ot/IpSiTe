@@ -43,7 +43,7 @@ clear || cls && cd IpSiTe && python main.py || python3 main.py
 
 
 
-Show Ip Target By   Script  Or  Web(s/w): س
+Show Ip Target By   Script  Or  Web(s/w): s
 
 ```
 * Enjoy the information!
